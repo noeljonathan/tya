@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fce4ec; /* Warna pink muda yang lembut */
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  overflow: hidden; /* Mencegah scroll saat tombol membesar */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 28px;
+}
+
+.gif {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Jarak antara tombol */
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transisi halus untuk semua perubahan */
+}
+
+#yesButton {
+  background-color: #4caf50; /* Hijau */
+  transform-origin: center;
+}
+
+#noButton {
+  background-color: #f44336; /* Merah */
+}
